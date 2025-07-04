@@ -1,0 +1,92 @@
+{
+    "client_list": [
+        "Client A",
+        "Client B",
+        "Client C"
+    ],
+    "printers": {
+        "Canon": {
+            "display_name": "Canon",
+            "types": [
+                "Roll",
+                "Flatbed"
+            ],
+            "active": true
+        },
+        "S60": {
+            "display_name": "S60",
+            "types": [
+                "Roll"
+            ],
+            "active": true
+        },
+        "S40": {
+            "display_name": "S40",
+            "types": [
+                "Roll"
+            ],
+            "active": true
+        },
+        "Jetson": {
+            "display_name": "Jetson",
+            "types": [
+                "Flatbed"
+            ],
+            "active": true
+        }
+    },
+    "media_config": {
+        "Vinyl": [
+            "Glossy",
+            "Matte",
+            "Satin"
+        ],
+        "Banner": [
+            "Scrim",
+            "Mesh",
+            "Blockout"
+        ],
+        "Paper": [
+            "Cardstock",
+            "Photo Paper",
+            "Canvas"
+        ]
+    },
+    "printer_media_config": {},
+    "hotfolder_root": "",
+    "art_root_path": "",
+    "client_art_folders": {},
+    "enable_art_copy": true,
+    "routing_rules": {},
+    "show_panel": true,
+    "include_vars": {
+        "job_number": true,
+        "client": true,
+        "size": true,
+        "quantity": true,
+        "finish": true,
+        "bleed": true,
+        "rotation": true,
+        "registration": true,
+        "grommets": true,
+        "pole_pockets": true,
+        "mirror": true,
+        "date": true,
+        "custom_text": true
+    },
+    "order": [
+        "job_number",
+        "client",
+        "size",
+        "quantity",
+        "finish",
+        "bleed",
+        "rotation",
+        "registration",
+        "grommets",
+        "pole_pockets",
+        "mirror",
+        "date",
+        "custom_text"
+    ]
+}
